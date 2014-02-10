@@ -16,7 +16,7 @@ limitations under the License.
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.klinker.android.evolve_theme"
+          package="com.igoe.android.my_first_theme_ever"
           android:versionCode="1"
           android:versionName="1.00">
 
@@ -34,7 +34,7 @@ limitations under the License.
         <!-- Can be true or false, true means that the header pictures of each contact will be displayed at the top -->
         <!-- false means that it will look more traditional with the actionbar at the top -->
         <meta-data android:name="evolve_theme_headers"
-                   android:value="false" />
+                   android:value="true" />
 
         <!-- Can be true or false, true means that contact pictures will be shown for messages -->
         <!-- false means that contact pictures will not be shown -->
@@ -44,7 +44,7 @@ limitations under the License.
         <!-- Can be true or false, true means that contact pictures will be round -->
         <!-- false means that contact pictures will be square-->
         <meta-data android:name="evolve_theme_round_contact_pictures"
-                   android:value="false" />
+                   android:value="true" />
 
         <!-- Can be true or false, true means that contact pictures will be shown for each and every message -->
         <!-- false means that if the message above a received message is also received, then the 2nd received messages contact picture will not be shown -->
@@ -60,11 +60,11 @@ limitations under the License.
         <!-- Can be true or false, true means that the message box should stretch from one side of the screen to the other -->
         <!-- false means that the message boxes will be staggered when drawn with more padding on one side vs the other -->
         <meta-data android:name="evolve_theme_message_fill_width"
-                   android:value="true" />
+                   android:value="false" />
 
         <!-- Can be light, dark, or black, which defines the base theme you are building off of -->
         <meta-data android:name="evolve_theme_base"
-                   android:value="light" />
+                   android:value="dark" />
 
     </application>
 </manifest>
